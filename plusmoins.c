@@ -67,16 +67,14 @@ int ft_difficulty()
 void ft_game_logic(int max)
 {
 	int number;
-	int min;
 	int counter;
 	bool condition;
 
-	min = 1;
 	counter = 1;
 	condition = false;
 
 	srand(time(NULL));
-	number = (rand() % (max - min + 1)) + min;
+	number = (rand() % max) + 1;
 
 	printf("-- the game begin --");
 
