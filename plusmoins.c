@@ -46,21 +46,13 @@ int ft_difficulty()
 	printf("> ");
 	scanf("%d", &choice);
   	if (choice == 1)
-	{
 		return 100;
-  	}
   	else if (choice == 2)
-	{
 		return 1000;
-  	}
 	else if (choice == 3)
-	{
 		return 10000;
-  	}
  	else 
-	{
 		return 666;
-	}
 }
 
 
@@ -94,13 +86,9 @@ bool ft_core(int number, int counter)
 	scanf("%d", &input);
 	    
 	if (input < number)
-	{
 		printf("mystery number is more.");
-	}
 	else if (input > number)
-	{
 		printf("mystery number is less.");
-	}
 	else if (input == number)
 	{
 		printf("correct, mystery number is %d, found in %d try.\n", number, counter);
