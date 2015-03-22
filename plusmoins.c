@@ -39,9 +39,9 @@ int difficulty()
 	int choice;
 
 	printf("========<  NOMBRE MYSTERE  >========\n");
- 	printf("= 1: EASY                          =\n");
- 	printf("= 2: MEDIUM                        =\n");
- 	printf("= 3: HARD                          =\n");
+ 	printf("= 1: EASY                   [1;100]=\n");
+ 	printf("= 2: MEDIUM                [1;1000]=\n");
+ 	printf("= 3: HARD                 [1;10000]=\n");
  	printf("====================================\n");
   	printf("> ");
   	scanf("%d", &choice);
