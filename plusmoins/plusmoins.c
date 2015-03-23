@@ -1,3 +1,6 @@
+/*     by: william <william@watkins.fr>
+   github: https://github.com/william-watkins */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
