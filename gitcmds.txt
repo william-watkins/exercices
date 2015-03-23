@@ -1,0 +1,14 @@
+-----------------------------------------------------------------
+
+git init						init a git directory
+git add <file>					add files to the git commit
+git commit -m "message"			commit the modifications or added content
+git push origin <branch>		push the commited files to the git online repository
+git remote add <name> <url>		add a remote to a specified url
+git remote set-url <name> <url>	set/change the url of a specified remote
+
+git log							display the logs
+git show
+git config -l					display the current git account informations
+
+-----------------------------------------------------------------
