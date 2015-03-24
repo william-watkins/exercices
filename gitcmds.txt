@@ -5,7 +5,8 @@ git add <file>						add files to the git commit
 git rm <file/dir>					remove the file or directory
 git mv <file/dir>					move/rename a file or directory
 git commit -m "message"				commit the modifications or added content
-git push origin <branch>			push the commited files to the git online repository
+git push <remote> <branch>			push the commited files to the git online repository
+git pull <remote> <branch>			get the files at the current state of the git online repository
 git remote add <name> <url>			add a remote to a specified url
 git remote set-url <name> <url>		set/change the url of a specified remote
 git remote -v						display the different remotes
