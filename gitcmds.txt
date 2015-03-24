@@ -1,4 +1,4 @@
------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 
 git init							init a git directory
 git add <file>						add files to the git commit
@@ -10,9 +10,12 @@ git remote add <name> <url>			add a remote to a specified url
 git remote set-url <name> <url>		set/change the url of a specified remote
 git remote -v						display the different remotes
 
-git log								display the logs
 git branch							display the different branches
 git config --<type> -l				display git config in shell  (<type>=global, system, local)
 git config --<type> -e				open git config in an editor (<type>=global, system, local)
 
------------------------------------------------------------------
+git checkout master					revert to the last added commit (in time)
+git checkout <commit>				revert to the say commit
+git log								display the logs but also the commit numbers (usefull for checkout) ctrl + shift + c to copy						
+
+-----------------------------------------------------------------------------------------------------------------------------------
