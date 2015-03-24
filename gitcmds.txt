@@ -12,6 +12,7 @@ git remote -v						display the different remotes
 
 git log								display the logs
 git branch							display the different branches
-git config -l						display the current git account informations
+git config --<type> -l				display git config in shell  (<type>=global, system, local)
+git config --<type> -e				open git config in an editor (<type>=global, system, local)
 
 -----------------------------------------------------------------
