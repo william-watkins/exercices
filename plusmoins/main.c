@@ -5,15 +5,12 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdbool.h>
+#include "main.h"
 
-int ft_difficulty();
-void ft_game_logic(int max);
-bool ft_core(int number, int counter);
-
-int main()
+int		main()
 {
-	int max;
-	char main_loop;
+	int		max;
+	char	main_loop;
 
 	main_loop = 'y';
 
@@ -37,9 +34,9 @@ int main()
 
 
 /* set the difficulty menu for the game */
-int ft_difficulty()
+int		ft_difficulty()
 {
-	int choice;
+	int		choice;
 
 	printf("=======<  MYSTERY NUMBER  >=======\n");
 	printf("= 1: EASY                 [1;100]=\n");
@@ -59,11 +56,11 @@ int ft_difficulty()
 }
 
 
-void ft_game_logic(int max)
+void	ft_game_logic(int max)
 {
-	int number;
-	int counter;
-	bool condition;
+	int		number;
+	int		counter;
+	bool 	condition;
 
 	counter = 1;
 	condition = false;
@@ -81,9 +78,9 @@ void ft_game_logic(int max)
 }
 
 
-bool ft_core(int number, int counter)
+bool	ft_core(int number, int counter)
 {
-	int input;
+	int		input;
 
 	printf("\n> proposition: ");
 	scanf("%d", &input);
